@@ -1,0 +1,36 @@
+.create-image-cmp {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.create-image-cmp form {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.create-image-cmp form input {
+  width: 100%;
+}
+
+.create-image-cmp form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.create-image-cmp form button {
+  width: 100%;
+}

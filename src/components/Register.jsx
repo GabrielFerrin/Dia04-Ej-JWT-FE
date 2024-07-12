@@ -20,8 +20,10 @@ const Register = () => {
         })
       })
       const response = await rawResponse.json()
+      console.log(response)
       if (response?.success) {
-        navigate('/dashboard')
+        localStorage.setItem('token', response.token)
+        navigate('/dashboard/gallery')
       }
     } catch (error) {
       console.log(error)
@@ -38,7 +40,7 @@ const Register = () => {
         <input type="text" name="username" id="username" />
         <label htmlFor="password">Contraseña</label>
         <input type="password" name="password" id="password" />
-        <button type="submit">Iniciar sesión</button>
+        <button type="submit">Registrar</button>
       </form>
     </ div>
   )

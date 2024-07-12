@@ -1,0 +1,21 @@
+.gallery-cmp {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-cmp a {
+  align-self: flex-end;
+}
+
+.gallery-cmp .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-cmp .gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
